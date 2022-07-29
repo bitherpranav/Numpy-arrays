@@ -109,7 +109,7 @@ print(a.max())
 print(a.min())
 print(a.sum())
 
-# rows are called axis=1, and cols are called axis=0
+# rows are called axis=0, and cols are called axis=1
 import numpy as np
 a=np.array([[1,2,3],[4,5,6]])
 print(a.max(axis=0)) #this will give the max of each col
@@ -120,7 +120,7 @@ print(a.min(axis=0)) #this will give the min of each col
 
 print(a.min(axis=1)) #this will give the min of each row
 
-print(a.sum(axis=0)) #this willl give the sum of each col
+print(a.sum(axis=0)) #this will give the sum of each col
 
 print(a.sum(axis=1)) #this will give the sum of each row
 
